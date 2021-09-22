@@ -1,0 +1,46 @@
+html {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag {
+  height: 50vh;
+  width: 75vh;
+  background-color: white;
+  border: 3px solid green;
+  margin-left: 5%;
+  margin-top: 25%;
+}
+
+.top {
+  height: 50%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  gap: 0;
+}
+
+.stars {
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+.halfStripes {
+  background-color: crimson;
+  height: 100%;
+  width: 100%;
+  grid-column: 2 / 2;
+  grid-row: 1;
+}
+
+.fullStripes {
+  background-color: darkmagenta;
+  height: 50%;
+  width: 100%;
+}
