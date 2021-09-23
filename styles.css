@@ -32,6 +32,10 @@ html {
   grid-row: 1;
 }
 
+.star {
+  color: white;
+}
+
 .halfStripes {
   background-color: white;
   height: 100%;
