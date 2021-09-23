@@ -25,15 +25,23 @@ html {
 
 .stars {
   background-color: blue;
-  height: 100%;
-  width: 100%;
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row: 1;
 }
 
+.s5 {
+  margin-left: 7%;
+}
+
+.s6 {
+  margin-left: 3%;
+}
+
 .star {
   color: white;
+  font-size: 200%;
+  margin-left: 5%
 }
 
 .halfStripes {
@@ -48,7 +56,7 @@ html {
   grid-template-rows: repeat(7, 1);
 }
 
-div {
+.red {
   background-color: red;
 }
 
