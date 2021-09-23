@@ -7,7 +7,7 @@ html {
 
 .flag {
   height: 50vh;
-  width: 75vh;
+  width: 95vh;
   background-color: white;
   border: 3px solid green;
   margin-left: 5%;
@@ -15,10 +15,10 @@ html {
 }
 
 .top {
-  height: 50%;
+  height: 54%;
   width: 100%;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 100%;
   gap: 0;
 }
@@ -27,20 +27,74 @@ html {
   background-color: blue;
   height: 100%;
   width: 100%;
-  grid-column: 1 / 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
   grid-row: 1;
 }
 
 .halfStripes {
-  background-color: crimson;
+  background-color: white;
   height: 100%;
   width: 100%;
-  grid-column: 2 / 2;
+  grid-column-start: 3;
+  grid-column-end: span 3;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, 1);
+}
+
+div {
+  background-color: red;
+}
+
+.one {
+  height: 100%;
+  width: 100%;
   grid-row: 1;
 }
 
-.fullStripes {
-  background-color: darkmagenta;
-  height: 50%;
+.three {
+  height: 100%;
   width: 100%;
+  grid-row: 3;
+}
+
+.five {
+  height: 100%;
+  width: 100%;
+  grid-row: 5;
+}
+
+.seven {
+  height: 100%;
+  width: 100%;
+  grid-row: 7;
+}
+
+.fullStripes {
+  background-color: white;
+  height: 46%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.nine {
+  height: 100%;
+  width: 100%;
+  grid-row: 2;
+}
+
+.eleven {
+  height: 100%;
+  width: 100%;
+  grid-row: 4;
+}
+
+.thirteen {
+  height: 100%;
+  width: 100%;
+  grid-row: 6;
 }
